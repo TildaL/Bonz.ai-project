@@ -1,0 +1,452 @@
+/* ------All pages------ */
+
+* {
+    margin: 0;   
+  
+  }
+
+
+/* ------Home-page------ */ 
+
+.body--home {
+    background: url(/assets/photos/03-night.mobile.jpg);
+    background-size: cover;
+  }
+
+/* Header */
+
+header {
+    /* border: black solid 1px; */
+    height: auto;
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 0.3em; 
+    padding-top: 0.3em;  
+    padding-bottom: 0.3em; 
+}
+
+header img {
+   width: 55vw;
+}
+
+/* Navigation */
+
+nav {
+    /* border: black solid 1px; */
+    height: 10vh;
+    display: flex;
+}
+
+.button {
+    display: inline-block;
+    padding: 0.3em 0.85em;
+    text-decoration: none;
+    background-color:#fff;
+    border: 1px solid black;
+    color: black;
+    margin: auto 0.3em;
+    border-top-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+}
+
+.button:hover {
+    background-color: #4B3021;
+    color: #fff;
+    border: 1px solid #fff;} 
+
+/* Main */
+
+main {
+    /* border: black solid 1px; */
+    height: 70vh;
+}
+
+/* Footer */
+
+footer {
+    /* border: black solid 1px; */
+    height: 10vh;
+    text-align: center;
+    padding: 0.3em;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #fff;
+    background-color: #4B3021;
+    opacity: 75%;
+}
+
+/* ------About-us-page------ */ 
+
+/* Body */
+
+    .body--about-us {
+        background: url(/assets/photos/09-day.mobile.jpg);
+    background-size: cover;
+    } 
+
+    /* Header */
+
+    .about-us__header {
+        background-color: #9da5af;
+    }
+
+     /* Nav */
+
+      .about-us__button {
+        background-color: #9da5af;
+        color: #fff;
+     } 
+
+     /* Main */
+
+     .about-us__main {
+        text-align: center;
+        font-weight: bold;
+     }
+
+     .about-us__main h2 {
+        margin-top:1em ;
+     }
+
+     /* Footer */
+
+     .about-us__footer  {
+        background-color: #9da5af;
+        font-weight: bold;
+    }
+
+/* ------Booking-page------ */ 
+
+/* Body */
+
+.body--booking {
+    background:#7a7b7f;
+    background: #4B3021;
+    background-size: cover;
+  }
+
+  /* Main */
+
+.main--booking {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 0.5; 
+    grid-template-rows: repeat(8, 1fr);
+    overflow: scroll;
+    color: #fff ;
+}
+
+/* Room 1 */
+
+.main__img--1 {
+    grid-column: 2/3;
+    grid-row:1/3;
+    width: 12em;
+    margin: 1em;
+}
+
+.main__form--1a {
+    grid-column: 3/4;
+    grid-row:1/2; 
+    /* max-width: 6em;   */
+    margin: 1em;   
+}
+
+.main__form--1b {
+    grid-column: 3/4;
+    grid-row:2/3;  
+    margin: 1em; 
+}
+
+/* Room 2 */
+.main__img--2 {
+    grid-column: 2/3;
+    grid-row:3/5;
+    width: 12em;
+    margin: 1em;
+}
+
+.main__form--2a {
+    grid-column: 3/4;
+    grid-row:3/4; 
+    /* max-width: 16px; */
+    margin: 1em;   
+}
+
+.main__form--2b {
+    grid-column: 3/4;
+    grid-row:4/5;  
+    margin: 1em; 
+}
+
+/* Room 3 */
+
+.main__img--3 {
+    grid-column: 2/3;
+    grid-row:5/7;
+    width: 12em;
+    margin: 1em;
+}
+
+.main__form--3a {
+    grid-column: 3/4;
+    grid-row:5/6; 
+    /* max-width:6em;   */
+    margin: 1em;   
+}
+
+.main__form--3b {
+    grid-column: 3/4;
+    grid-row:6/7;  
+    margin: 1em; 
+}
+
+/* Room 4 */
+
+.main__img--4 {
+    grid-column: 2/3;
+    grid-row:7/9;
+    width: 12em;
+    margin: 1em;
+}
+
+.main__form--4a {
+    grid-column: 3/4;
+    grid-row:7/8; 
+    /* max-width: 6em;   */
+    margin: 1em;   
+}
+
+.main__form--4b {
+    grid-column: 3/4;
+    grid-row:8/9;  
+    margin: 1em; 
+}
+
+footer {
+    opacity: 100%;
+}
+/* ------Desktop version Home-page------*/
+
+@media (min-width:600px){
+
+    /* Body */
+
+   .body--home {
+        /* border: black solid 1px; */
+        background: url(/assets/photos/03-night.jpg);
+        background-size: cover;
+        height: 100vh;
+    }
+
+    /* Header */
+    header {
+        background-color: transparent;
+        height: auto;
+    }
+
+    header img {
+        width: 30vw;
+     }
+
+    /* Nav */
+
+        nav {
+        float: right;
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        width: 10vw;
+        justify-content: flex-end;
+        padding-bottom: 7em;
+        background: none;
+        color: #fff;
+        min-width: 10em;
+
+     } 
+
+     .button__home:hover {
+        background-color: #4B3021;
+        color: #fff;
+        border: 1px solid #fff;} 
+     }
+
+    /* Main*/    
+
+     main {
+        background: none;
+     }
+
+    footer {
+        background: none;
+        color: #fff;
+        background-color: #4B3021;
+    opacity: 75%;
+
+    } 
+      
+/* ------Desktop version About-us-page------*/
+
+@media (min-width:600px) {
+
+    /* Body */ 
+
+    .body--about-us {
+        /* border: black solid 1px; */
+        background: url(/assets/photos/09-day.desktop.jpg);
+        background-size: cover;
+        height: 100vh;
+    }
+
+    /* Header */ 
+.about-us__header {
+    background-color: #9da5af;
+
+}
+
+    /* Nav */ 
+
+.button {
+    padding: 0.6em 1.5em;
+    text-align: center;
+    margin: 1em 0;
+    background-color: #fff;
+    border-top-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+ }
+
+  .about-us__button {
+        background-color: #fff;
+        color: black;
+     }
+
+ .about-us__button:hover {
+    background-color: #9da5af;
+    color: #fff;
+    border: 1px solid #fff;} 
+
+    /* Main */
+
+    .about-us__main h2 {
+        margin-top:1em ;
+     }
+
+    /* Footer */ 
+
+    .about-us__footer {
+        background-color: transparent; 
+        font-weight: bold;          
+    }
+}
+
+
+/* ------Desktop version Booking-page------*/
+
+@media (min-width:600px){
+
+    .main--booking {
+        display: grid;
+        grid-template-columns: 1fr 2fr 2fr 1fr; 
+        grid-template-rows: repeat(8, 1fr);
+        overflow: scroll;
+        color: #fff ;
+    }
+    
+    /* Room 1 */
+
+    .main__img--1 {
+        grid-column: 2/3;
+        grid-row:1/3;
+        height: 16em;
+        width: auto;
+        margin: 1em;
+    }
+    
+    .main__form--1a {
+        grid-column: 3/4;
+        grid-row:1/2; 
+        margin: 1em;   
+    }
+    
+    .main__form--1b {
+        grid-column: 3/4;
+        grid-row:2/3;  
+        margin: 1em; 
+    }
+    
+    /* Room 2 */
+    .main__img--2 {
+        grid-column: 2/3;
+        grid-row:3/5;
+        height: 16em;
+        width: auto;
+        margin: 1em;
+    }
+    
+    .main__form--2a {
+        grid-column: 3/4;
+        grid-row:3/4; 
+        margin: 1em;   
+    }
+    
+    .main__form--2b {
+        grid-column: 3/4;
+        grid-row:4/5;  
+        margin: 1em; 
+    }
+    
+    /* Room 3 */
+    
+    .main__img--3 {
+        grid-column: 2/3;
+        grid-row:5/7;
+        height: 16em;
+        width: auto;
+        margin: 1em;
+    }
+    
+    .main__form--3a {
+        grid-column: 3/4;
+        grid-row:5/6; 
+        margin: 1em;   
+    }
+    
+    .main__form--3b {
+        grid-column: 3/4;
+        grid-row:6/7;  
+        margin: 1em; 
+    }
+    
+    /* Room 4 */
+    
+    .main__img--4 {
+        grid-column: 2/3;
+        grid-row:7/9;
+        height: 16em;
+        width: auto;
+        margin: 1em;
+    }
+    
+    .main__form--4a {
+        grid-column: 3/4;
+        grid-row:7/8; 
+        margin: 1em;   
+    }
+    
+    .main__form--4b {
+        grid-column: 3/4;
+        grid-row:8/9;  
+        margin: 1em; 
+    }
+    
+    footer {
+        opacity: 100%;
+    }
+}
+
+
