@@ -32,7 +32,6 @@ header img {
 /* Navigation */
 
 nav {
-    /* border: black solid 1px; */
     height: 10vh;
     display: flex;
 }
@@ -57,14 +56,12 @@ nav {
 /* Main */
 
 main {
-    /* border: black solid 1px; */
     height: 70vh;
 }
 
 /* Footer */
 
 footer {
-    /* border: black solid 1px; */
     height: 10vh;
     text-align: center;
     padding: 0.3em;
