@@ -345,10 +345,26 @@ footer {
         display: grid;
         grid-template-columns: 1fr 2fr 2fr 1fr; 
         grid-template-rows: repeat(8, 1fr);
-        /* overflow: scroll; */
         color: #fff ;
         min-width:60em;
     }
+
+    nav {
+        float: right;
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        width: 10vw;
+        justify-content: flex-end;
+        padding-bottom: 7em;
+        background: none;
+        color: #fff;
+        min-width: 10em;
+
+     } 
     
     /* Room 1 */
 
