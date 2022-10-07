@@ -8,7 +8,7 @@
 
 /* ------Home-page------ */ 
 
-.body--home {
+.body--background-window {
     background: url(/assets/photos/03-night.mobile.jpg);
     background-size: cover;
   }
@@ -78,38 +78,43 @@ footer {
 
 /* Body */
 
-    .body--about-us {
+    .body--background-nature {
         background: url(/assets/photos/09-day.mobile.jpg);
     background-size: cover;
     } 
 
     /* Header */
 
-    .about-us__header {
+    .header__grey {
         background-color: #9da5af;
     }
 
      /* Nav */
 
-      .about-us__button {
+     /* .about-us__button {
+        background-color: #9da5af;
+        color: #fff;
+     }  */
+
+     .button--grey {
         background-color: #9da5af;
         color: #fff;
      } 
 
      /* Main */
 
-     .about-us__main {
+     .main__about-text {
         text-align: center;
         font-weight: bold;
      }
 
-     .about-us__main h2 {
+     .main__about-text h2 {
         margin-top:1em ;
      }
 
      /* Footer */
 
-     .about-us__footer  {
+     .footer__background  {
         background-color: #9da5af;
         font-weight: bold;
     }
@@ -118,7 +123,7 @@ footer {
 
 /* Body */
 
-.body--booking {
+.body--background-color {
     background:#7a7b7f;
     background: #4B3021;
     background-size: cover;
@@ -143,13 +148,13 @@ footer {
     margin: 1em;
 }
 
-.main__form--1a {
+.form--1a {
     grid-column: 3/4;
     grid-row:1/2; 
     margin: 1em;   
 }
 
-.main__form--1b {
+.form--1b {
     grid-column: 3/4;
     grid-row:2/3;  
     margin: 1em; 
@@ -164,13 +169,13 @@ footer {
     margin: 1em;
 }
 
-.main__form--2a {
+.form--2a {
     grid-column: 3/4;
     grid-row:3/4; 
     margin: 1em;   
 }
 
-.main__form--2b {
+.form--2b {
     grid-column: 3/4;
     grid-row:4/5;  
     margin: 1em; 
@@ -185,13 +190,13 @@ footer {
     margin: 1em;
 }
 
-.main__form--3a {
+.form--3a {
     grid-column: 3/4;
     grid-row:5/6; 
     margin: 1em;   
 }
 
-.main__form--3b {
+.form--3b {
     grid-column: 3/4;
     grid-row:6/7;  
     margin: 1em; 
@@ -206,13 +211,13 @@ footer {
     margin: 1em;
 }
 
-.main__form--4a {
+.form--4a {
     grid-column: 3/4;
     grid-row:7/8;
     margin: 1em;   
 }
 
-.main__form--4b {
+.form--4b {
     grid-column: 3/4;
     grid-row:8/9;  
     margin: 1em; 
@@ -228,7 +233,7 @@ footer {
 
     /* Body */
 
-   .body--home {
+   .body--background-window {
         background: url(/assets/photos/03-night.jpg);
         background-size: cover;
         height: 100vh;
@@ -263,11 +268,11 @@ footer {
 
      } 
 
-     .button__home:hover {
+     /* .button__home:hover {
         background-color: #4B3021;
         color: #fff;
         border: 1px solid #fff;} 
-     }
+     } */
 
     /* Main*/    
 
@@ -289,7 +294,7 @@ footer {
 
     /* Body */ 
 
-    .body--about-us {
+    .body--background-nature {
         background: url(/assets/photos/09-day.desktop.jpg);
         background-size: cover;
         height: 100vh;
@@ -297,7 +302,7 @@ footer {
 
     /* Header */
 
-.about-us__header {
+.header__grey {
     background-color: #9da5af;
 }
 
@@ -312,25 +317,25 @@ footer {
     border-bottom-right-radius: 1em;
  }
 
-  .about-us__button {
+  .button--grey {
         background-color: #fff;
         color: black;
      }
 
- .about-us__button:hover {
+ .button--grey:hover {
     background-color: #9da5af;
     color: #fff;
     border: 1px solid #fff;} 
 
     /* Main */
 
-    .about-us__main h2 {
+    .main__about-text h2 {
         margin-top:1em ;
      }
 
     /* Footer */ 
 
-    .about-us__footer {
+    .footer__background {
         background-color: transparent; 
         font-weight: bold;          
     }
@@ -341,7 +346,7 @@ footer {
 
 
 
-@media (min-width:900px){
+@media (min-width:600px) {
 
     .main--booking {
         display: grid;
@@ -361,13 +366,13 @@ footer {
         margin: 1em;
     }
     
-    .main__form--1a {
+    .form--1a {
         grid-column: 3/4;
         grid-row:1/2; 
         margin: 1em;   
     }
     
-    .main__form--1b {
+    .form--1b {
         grid-column: 3/4;
         grid-row:2/3;  
         margin: 1em; 
@@ -383,13 +388,13 @@ footer {
         margin: 1em;
     }
     
-    .main__form--2a {
+    .form--2a {
         grid-column: 3/4;
         grid-row:3/4; 
         margin: 1em;   
     }
     
-    .main__form--2b {
+    .form--2b {
         grid-column: 3/4;
         grid-row:4/5;  
         margin: 1em; 
@@ -405,13 +410,13 @@ footer {
         margin: 1em;
     }
     
-    .main__form--3a {
+    .form--3a {
         grid-column: 3/4;
         grid-row:5/6; 
         margin: 1em;   
     }
     
-    .main__form--3b {
+    .form--3b {
         grid-column: 3/4;
         grid-row:6/7;  
         margin: 1em; 
@@ -427,13 +432,13 @@ footer {
         margin: 1em;
     }
     
-    .main__form--4a {
+    .form--4a {
         grid-column: 3/4;
         grid-row:7/8; 
         margin: 1em;   
     }
     
-    .main__form--4b {
+    .form--4b {
         grid-column: 3/4;
         grid-row:8/9;  
         margin: 1em; 
@@ -443,5 +448,4 @@ footer {
         opacity: 100%;
     }
 }
-
 
