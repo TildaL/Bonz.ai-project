@@ -48,11 +48,6 @@ nav {
     border-bottom-right-radius: 1em;
 }
 
-.button:hover {
-    background-color: #4B3021;
-    color: #fff;
-    border: 1px solid #fff;} 
-
 /* Main */
 
 main {
@@ -85,16 +80,11 @@ footer {
 
     /* Header */
 
-    .header__grey {
+    .header--grey {
         background-color: #9da5af;
     }
 
      /* Nav */
-
-     /* .about-us__button {
-        background-color: #9da5af;
-        color: #fff;
-     }  */
 
      .button--grey {
         background-color: #9da5af;
@@ -240,6 +230,7 @@ footer {
     }
 
     /* Header */
+
     header {
         background-color: transparent;
         height: auto;
@@ -268,11 +259,11 @@ footer {
 
      } 
 
-     /* .button__home:hover {
+     .button:hover {
         background-color: #4B3021;
         color: #fff;
         border: 1px solid #fff;} 
-     } */
+    
 
     /* Main*/    
 
@@ -299,12 +290,6 @@ footer {
         background-size: cover;
         height: 100vh;
     }
-
-    /* Header */
-
-.header__grey {
-    background-color: #9da5af;
-}
 
     /* Nav */ 
 
@@ -448,4 +433,3 @@ footer {
         opacity: 100%;
     }
 }
-
